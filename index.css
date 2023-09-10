@@ -13,35 +13,35 @@
   font-family: "Nunito", sans-serif;
 }
 .form-container {
-  border: 2px yellow;
-  background-color: rgb(233, 238, 242);
-  padding: 60px 2px;
+  border: 2px rgb(216, 100, 23);
+  background-color: rgb(29, 185, 99);
+  padding: 30px 10px;
   text-align: center;
-  width: 50%;
+  width: 100%;
   margin: 40px;
   padding-bottom: 2 rem;
 }
 .form-container input {
   display: block;
-  width: 100%;
+  width: 80%;
   border: none;
   border-bottom: 2px solid #ddd;
-  padding: 1rem 0;
+   padding: 0.5rem 0; 
   box-shadow: none;
   outline: none;
   margin-bottom: 1rem;
   color: #444;
   text-align: center;
-  font-weight: 500;
-   position: relative;
+  font-weight: 100;
+ 
 }
 
 #Createaccount{
-  border: 2px yellow;
-   padding: 25px;
+   border: 2px yellow;
+   padding: 25px 40px;
    width: 40px;
    margin:50px ;
-padding-bottom: 40px;
+   padding: 40px 50px;
 }
 .contact-img {
   text-align: center;
@@ -55,10 +55,10 @@ padding-bottom: 40px;
 
 }
 #Schedule {
-  background-color: rgb(33, 58, 200);
-  max-width: 500px;
+  background-color: rgb(33, 200, 147);
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 30px 40px;
+  padding: 50px 60px;
 }
 #cont{
   background-color: rgb(25, 23, 23);
@@ -86,7 +86,9 @@ th, td {
   /* padding-right: 60px 0;
    padding-bottom: 200px; */
    margin-top: 30px;
-  background-color: #17bbb5;
+   padding: 30px 20px;
+   width: 100px;
+  background-color: #07b1b1;
 }
 
 .btn-22{
@@ -364,6 +366,7 @@ body {
 /* Footer */
 .footer {
   padding: 30px 0;
+  padding-bottom: 30px;
   border-top: 1px solid #fff;
   text-align: center;
 }
@@ -426,7 +429,8 @@ body {
   }
 
   .tertiary {
-    font-size: 14px;
+    padding-bottom: 100px;
+    font-size: 40px;
   }
 
   .trainer {
@@ -461,6 +465,7 @@ body {
 
   .tertiary {
     font-size: 12px;
+    padding-bottom: 50px;
   }
 
   .text h1 {
@@ -476,5 +481,82 @@ body {
 .youtube p {
   font-size: 22px;
 }
+
+/* body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 50;
+}
+ 
+/* Styling the area of the slides */
+/* #slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+} */
+ 
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+ 
+/* Add animation to the slides */
+/* .slide-wrapper { */
+   
+/* Calculate the total width on the
+  basis of number of slides */
+  /* width: calc(400px * 4); */
+ 
+/* Specify the animation with the
+  duration and speed */
+  /* animation: slide 4s ease infinite; */
+/* } */
+ 
+/* Set the background color
+of each of the slides */
+/* .slide:nth-child(1) {
+  background: black;
+  margin: 30px;
+} */
+ 
+/* .slide:nth-child(2) {
+  background: pink;
+} */
+ 
+/* .slide:nth-child(3) {
+  background: red;
+} */
+ 
+/* .slide:nth-child(4) {
+  background: yellow;
+} */
+ 
+/* Define the animation
+for the slideshow */
+/* @keyframes slide { */
+   
+/* Calculate the margin-left for
+  each of the slides */
+  /* 20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  } */
+/* } */ 
 
 /* End Responsive */
